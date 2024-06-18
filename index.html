@@ -17,7 +17,7 @@
             <p></p> <!-- Error message will be dynamically updated -->
         </div>
         <div class="weather" style="display: none;">
-            <img src="images/rain.png" class="weather-icon" alt="Weather Icon">
+            <img src="images/nature.png" class="weather-icon" alt="Weather Icon">
             <h1 class="temp">22°C</h1>
             <h2 class="city">New York</h2>
             <div class="details">
@@ -67,7 +67,7 @@
                 } else if (data.weather[0].main === "Clear") {
                     weatherIcon.src = "images/clear.png";
                 } else if (data.weather[0].main === "Rain") {
-                    weatherIcon.src = "images/rain.png";
+                    weatherIcon.src = "images/nature.png";
                 } else if (data.weather[0].main === "Drizzle") {
                     weatherIcon.src = "images/drizzle.png";
                 } else if (data.weather[0].main === "Mist") {
