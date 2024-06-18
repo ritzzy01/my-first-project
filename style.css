@@ -10,7 +10,7 @@ body {
 }
 
 .card {
-    width: 90%;  /* Corrected the syntax from width=90% to width: 90%; */
+    width: 90%; 
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #ab3ebc);
     color: #fff;
