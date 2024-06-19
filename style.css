@@ -7,10 +7,15 @@
 
 body {
     background: #222;
+    display: flex; /*  Center the card */
+    justify-content: center; /*  Center the card */
+    align-items: center; /*  Center the card */
+    height: 100vh; /*  Full viewport height */
+    padding: 20px; /*  Ensure some padding */
 }
 
 .card {
-    width: 90%; 
+    width: 100%; 
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #ab3ebc);
     color: #fff;
@@ -18,6 +23,7 @@ body {
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .search {
@@ -86,6 +92,7 @@ body {
     display: flex;
     align-items: center;
     text-align: left;
+    flex: 1;
 }
 
 .col img {
