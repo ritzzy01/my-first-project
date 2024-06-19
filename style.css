@@ -112,7 +112,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .card {
-        margin: 50px auto;
+        margin: 70px auto;
         padding: 20px;
     }
 
@@ -144,12 +144,7 @@ body {
     }
 
     .details {
-        flex-direction: column;
         margin-top: 30px;
-    }
-
-    .col {
-        margin-bottom: 20px;
     }
 
     .humidity, .wind {
