@@ -7,11 +7,11 @@
 
 body {
     background: #222;
-    display: flex; /*  Center the card */
-    justify-content: center; /*  Center the card */
-    align-items: center; /*  Center the card */
-    height: 100vh; /*  Full viewport height */
-    padding: 20px; /*  Ensure some padding */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    padding: 20px; 
 }
 
 .card {
@@ -151,12 +151,12 @@ body {
     }
 
     .details {
-        flex-direction: row; /* Maintain row direction */
+        flex-direction: row;
         margin-top: 30px;
     }
 
     .col {
-        margin-bottom: 0; /* Remove bottom margin to keep side by side */
+        margin-bottom: 0; 
     }
 
     .humidity, .wind {
@@ -193,12 +193,12 @@ body {
     }
 
     .details {
-        flex-direction: row; /* Maintain row direction */
+        flex-direction: row; 
         padding: 0 10px;
     }
 
     .col {
-        margin-bottom: 0; /* Remove bottom margin to keep side by side */
+        margin-bottom: 0; 
     }
 
     .humidity, .wind {
